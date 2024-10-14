@@ -11,9 +11,16 @@ const _layout = () => {
     <View style={styles.container}>
       <Image source={Images.settings} style={{ height: 25, width: 25, marginTop: 20, alignSelf: 'flex-end', marginRight: 20 }} />
       <Text> English (US)</Text>
+<<<<<<< HEAD
       <Image source={Images.facebook} style={{ height: 50, width: 50, borderRadius: 30, borderWidth: 1, borderColor: "#000", margin: 10 }} />
       <Image source={Images.pic3} style={styles.pic} />
       <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Ojogo Mercy</Text>
+=======
+      <Text>Haffa</Text>
+       <Image source={Images.facebook} style={{height:50,width:50,borderRadius:30,borderWidth:1,borderColor:"#000",margin:10}}/>
+      <Image source={Images.pic3} style={styles.pic}/> 
+      <Text style={{fontSize:20,fontWeight:'bold'}}>Ojogo Mercy</Text>
+>>>>>>> 29572822a849ef2e1772f2135abe568b51cc9b11
       <Text>🔔99+ notifications</Text>
       <Text style={{ fontSize: 15, margin: 10 }}>By Proceeding, your'e agreeing to<Text style={{ color: '#87ceeb' }}> MTN's Terms</Text>  which includes letting Facebook request and recieve your phone number.<Text style={{ color: '#87ceeb' }}>Change Settings</Text> </Text>
       <Text style={{ color: '#ccc' }}>_____________________________________________</Text>
